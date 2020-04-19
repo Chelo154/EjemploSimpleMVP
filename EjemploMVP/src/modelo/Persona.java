@@ -39,5 +39,8 @@ public class Persona {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
+    public String obtenerDatosResumidos(){
+        return String.format("%s,%s - (DNI: %d)",this.apellido,this.nombre,this.dni);
+    }
     
 }

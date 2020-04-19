@@ -16,4 +16,6 @@ public interface IABMPersonas {
     public void notificarPersonaAgregada();
     public void notificarError(Exception e);
     public void mostrarDatosPersonas(ArrayList<Persona> personas);
+    public void notificarPersonaEliminada();
+    public void notificarPersonaActualizada(String datosPersona);
 }

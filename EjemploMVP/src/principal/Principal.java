@@ -18,8 +18,8 @@ public class Principal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        //VentanaABMPersonas vista = new VentanaABMPersonas();
-        VentanaABMPersonas2 ventana = new VentanaABMPersonas2();
+        VentanaABMPersonas vista = new VentanaABMPersonas();
+        
     }
     
 }

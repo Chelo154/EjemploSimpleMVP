@@ -208,4 +208,14 @@ public class VentanaABMPersonas2 extends javax.swing.JFrame implements IABMPerso
         }
         this.jComboBox1.setModel(modelo);
     }
+
+    @Override
+    public void notificarPersonaEliminada() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void notificarPersonaActualizada(String datosPersona) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
